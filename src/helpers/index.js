@@ -2,20 +2,20 @@ const { inspect } = require('util')
 
 const emodji = {
   white: {
-    rook: '♜',
-    knight: '♞',
-    bishop: '♟',
-    queen: '♛',
-    king: '♚',
-    pawn: '♝',
+    rook: '🕴🏻',
+    knight: '🎠',
+    bishop: '👳',
+    queen: '👸🏻',
+    king: '🤴🏻',
+    pawn: '🙍🏻‍♂️',
   },
   black: {
-    rook: '♖',
-    knight: '♘',
-    bishop: '♙',
-    queen: '♕',
-    king: '♔',
-    pawn: '♗',
+    rook: '🕴🏿',
+    knight: '🐎',
+    bishop: '👳🏿‍♂️',
+    queen: '👸🏿',
+    king: '🤴🏿',
+    pawn: '🙍🏿‍♂️',
   },
 }
 
