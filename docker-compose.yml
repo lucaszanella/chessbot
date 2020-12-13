@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8443:8443"
+    #volumes:
+    #  - .:/home/node/app
+    environment:
+      FLASK_ENV: development
+  redis:
+    image: "node:latest"

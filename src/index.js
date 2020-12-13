@@ -20,7 +20,7 @@ const {
   inlineSettingsHandler,
 } = require('@/handlers')
 const { debug } = require('@/helpers')
-const { gameScene } = require('@/scenes')
+const { gameScene } = require('@/scenes/game')
 const knexConfig = require('@/../knexfile')
 
 const { BOT_NAME, BOT_TOKEN } = process.env
