@@ -6,8 +6,6 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8443:8443"
-    #volumes:
-    #  - .:/home/node/app
     environment:
       FLASK_ENV: development
   redis:
