@@ -10,7 +10,7 @@ COPY --chown=node:node . .
 
 EXPOSE 8443
 
-RUN ls && npm run knex --knexfile knexfile.js migrate:latest
+RUN ls && cp .env.example .env && npm run knex --knexfile knexfile.js migrate:latest && npm install pg --save
 
 CMD [ "sh","-c","npm run dev"]
 
